@@ -1,0 +1,115 @@
+:root{
+    --vermelho:#e50914;
+    --preto: #141414;
+
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-weight: bold;
+}
+
+
+header .container{  
+    height: 80px; 
+    display: flex;    
+    align-items: center;
+    background-color: var(--preto);
+    justify-content: space-between;
+}
+
+header .tituloPrincipal{    
+    width: 50%;
+    font-size: 30px;
+    font-family: "Arial Black";
+    font-weight: bold;
+    margin-left: 3%;
+    color: var(--vermelho);
+}
+
+header .menuPrincipal{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;    
+
+}
+
+header .menuPrincipal a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s ease all;
+}
+
+header .menuPrincipal a:hover{
+    color: var(--vermelho);
+    
+}
+
+main .filme-principal{
+    margin: 0 1.5% 0 1.5%;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/round6cartaz.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+ 
+}
+
+main .container{
+    margin-left: 2%;
+}
+
+main .titulo{
+    font-size: 50px;
+}
+
+main .descricao{
+    font-size: 18px;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+main .botoes button{
+    margin: 0 15px 0 0;
+    padding: 10px ;
+    border: none;
+    color:white;
+    background-color: rgba(226, 16, 16, 0.5);
+
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+button i{
+    margin-right: 10px;
+}
+
+
+main .botoes button:hover{
+    margin: 0 15px 0 0;
+    background: var(--vermelho);
+    color: white;
+}
+
+.carrossel-filmes{
+    margin-top: 60px;
+    margin: 0 1.5% 0 1.5%;
+    
+}
+
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
